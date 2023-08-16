@@ -6,11 +6,15 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:fix": "eslint --ext .js,.vue --fix --ignore-path .gitignore ."
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.3",
+    "eslint": "^8.47.0",
+    "eslint-plugin-vue": "^9.17.0",
     "nuxt": "^3.6.5"
   }
 }
