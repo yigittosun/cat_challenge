@@ -5,6 +5,7 @@ module.exports = {
       node: true,
     },
     extends: [
+      'nuxt',
       '@nuxtjs',
       'plugin:nuxt/recommended',
       'eslint:recommended',
