@@ -35,7 +35,7 @@ The Axios library is used to access the API and fetch random cat images. Cat ima
 
 4.  To start the application, run the following command:
 
-    arduinoCopy code
+    Copy code
 
     `npm run dev`
 
